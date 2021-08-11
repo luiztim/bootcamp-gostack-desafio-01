@@ -45,7 +45,7 @@ function checkForExistingProjectByID(req, res, next) {
 
 server.use((req, res, next) => {
   requestCount++;
-  console.log(`Total de requisições: ${requestCount}`);
+  console.log(`Requisições totais: ${requestCount}`);
   return next();
 });
 
